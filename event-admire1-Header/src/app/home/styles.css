@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+button:hover{
+    cursor: pointer;
+}
+html { scroll-behavior: smooth; }
+.header{
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    border: 1px solid black; /* will be removed when the image problem is fixed*/
+}
+.icon{
+    padding-top: 1.5rem;
+    padding-left: 2rem; 
+    width: 200px;
+    height: auto;
+}
+.headerList {
+    flex-direction: row;
+    list-style-type: none;
+    color: rgba(30, 27, 75, 0.997) ;
+    display: flex;
+    padding: 15px;
+    text-align: center;
+    justify-content: space-around;
+}
+.headerList a{
+    text-decoration: none;
+    font-weight: 400;
+    padding-left: 15px;
+} 
+.headerList a:hover{
+    color: #3a72ff;
+    text-decoration: underline;
+}
+.headerList a:visited{
+    color: rgba(38, 34, 93, 0.871) ;
+}
+.buttons{
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
+    display: flex;
+    text-align: center;
+    font-size:100%;
+    flex-direction: row;
+}
+.buttons .b1{
+    background-color: rgb(30 27 75);
+    color: white ;    
+    width: 90px;
+    height: 35px;   
+    border: 2px solid;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.buttons .b2{
+    background-color: white;
+    color: rgba(30, 27, 75, 0.871) ;    
+    width: 70px;
+    height: 35px;
+    border: 2px solid;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.b1:hover{
+    background-color: white;
+    color: rgba(30, 27, 75, 0.871) ;
+}
+.b2:hover{
+    background-color: rgba(30, 27, 75, 0.871);
+    color: white;
+}
